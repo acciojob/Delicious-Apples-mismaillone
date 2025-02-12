@@ -9,17 +9,17 @@ body{
     background-color: rgb(16, 227, 127);
 }
 section{
-    margin: 60px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: center;
     background-color: white;
-    width: 580px;
-    height: 540px;
+    width: 590px;
+    height: 530px;
     border-radius: 3px;
 }
 .photo-container{
     position: relative;
-    right: 130px;
+    right: 87px;
 }
 .photo-album{
     box-shadow: 1px 1px 5px 1px rgb(214, 214, 214);
@@ -27,13 +27,17 @@ section{
 }
 
 .photo-album ul {
-    padding: 6px;
+    padding: 2px;
     border-bottom-left-radius: 10px;
     display: flex;;
     background-color: white;
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+.photo-album ul li img{
+    width: 50px;
+    border-radius: 10px;
 }
 .photo-album ul li {
     border-radius: 10px;
@@ -63,20 +67,21 @@ section{
    
 }
 .photo-main{
-    height: 400px;
-    width: 300px;
+    height: 380px;
+    width: 250px;
     background-color: rgb(176, 232, 54);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 .photo-main img{
    position: relative;
-   right: 65px;
+   width: 300px;
+   right: 80px;
 }
 .product__info{
     margin-top: 60px;
     position: relative;
-    right: 100px;
+    right: 19px;
 }
 .price{
     margin-top: 15px;
