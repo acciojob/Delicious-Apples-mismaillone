@@ -8,6 +8,20 @@
 body{
     background-color: rgb(16, 227, 127);
 }
+.title h1{
+font-style: normal;
+font-family: "Poppins";
+}
+.title span{
+    font-family: "Poppins";
+    color: rgb(166, 166, 166);
+  font-style: normal;
+  font-size: 10px;
+}
+.variant h3{
+    font-family: "Poppins";
+    color: rgb(166, 166, 166);
+}
 section{
     margin: 50px auto;
     display: flex;
@@ -81,7 +95,7 @@ section{
 .product__info{
     margin-top: 60px;
     position: relative;
-    right: 19px;
+    right: 63px;
 }
 .price{
     margin-top: 15px;
